@@ -1,5 +1,6 @@
 # Time_Series_Coffee
-Overview:
+### Overview:
+
    This project was designed to explore time series models: SARIMAX,Prophet. Our idea was to analyze a small cap security that has an agriculture product. The goal was to use exogenous variables to improve our model. The stock we selected was Farmer Brothersf company ticker: FARM. They are a wholesaler of coffee and tea.  The variables we used to help us predict were as follows: coffee bean index, tea index, monthly rainfall in Columbia, ten year bond prices. After researching where the coffee came from and the biggest factor in strong coffee yields, we found that rainfall in Columbia was a factor worth including. We wanted to include interest ratings and went with a ten year bond etf to help simulate an interest rate effect. Prices of coffee and tea were included with index's of each that we found.
   ![plot](https://github.com/denisdunn/mod_4_Time_Series/blob/master/Screen%20Shot%202019-05-30%20at%205.55.39%20PM.png) 
   ![plot](https://github.com/denisdunn/mod_4_Time_Series/blob/master/Screen%20Shot%202019-06-03%20at%2010.15.29%20AM.png)
